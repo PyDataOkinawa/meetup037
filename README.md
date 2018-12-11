@@ -6,15 +6,15 @@ Kerasで遊ぼう
 
 ## これまで
 
-https://pydataokinawa.connpass.com/event/46026/
-https://pydataokinawa.connpass.com/event/36115/
+* https://pydataokinawa.connpass.com/event/46026/
+* https://pydataokinawa.connpass.com/event/36115/
 
 
 ## 環境構築
 
-Google colaboratoryを利用する(予定)のでローカルでのセッティングは必要ない
+Google colaboratoryを利用する(予定)のでローカルでのセッティングは必要ない -> gmailアカウント発行してねと伝える必要がある(TODO)
 
-https://qiita.com/tomo_makes/items/b3c60b10f7b25a0a5935
+* https://qiita.com/tomo_makes/items/b3c60b10f7b25a0a5935
 
 
 ## 今回やること
@@ -28,28 +28,28 @@ https://qiita.com/tomo_makes/items/b3c60b10f7b25a0a5935
 
 cifar-10使う予定
 
-* 手法を変えてみて精度を比較してみる
-	* 手法
-		* 全結合
-		* CNN
-			* CNN可視化
-* 過学習・未学習
+* 簡単なチュートリアル (用意完了)
+* 過学習・未学習 (用意完了)
 	* scikit-learnを利用する
 	* ハイパーパラメータの調整
 
 ### keras tips(1h)
 
-* Keras functionの作成
+これ1hでできる気がしなくなってきた...  
+作るけど、どこか削ろう
+
+* Keras functionの作成(まだ)
 	* モデルのデバッグ
 	* レイヤー単位で関数を作成し結果を確認する
+	* CNNの組み込み
 	* CNNの学習結果をvisualize
-* Tensorboard
+* Tensorboard(まだ)
 	* Callbackで利用
 	* 出力する値のカスタマイズ
-* 自作レイヤー
+* 自作レイヤー(まだ)
 	* 簡易な処理のレイヤーを自作
 	* Denseを自作(重みをもつレイヤーを自作)
-* functional api
+* functional api(まだ)
 	* 複数の入力モデルを構築する
 		* レイヤー・モデル出力のマージ
 
